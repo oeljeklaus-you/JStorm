@@ -79,14 +79,14 @@ Acker跟踪算法的原理：acker对于每个spout-tuple保存一个ack-val的�
 ## JStorm源码分析文件
 [JStorm源码学习-01-Storm执行脚本.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-01-Storm执行脚本.pdf)
 
-![JStorm源码学习-02-Storm任务提交流程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-02-Storm任务提交流程.pdf)
+[JStorm源码学习-02-Storm任务提交流程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-02-Storm任务提交流程.pdf)
 
-![JStorm源码学习-03-Nimbus的任务分配过程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-03-Nimbus的任务分配过程.pdf)
+[JStorm源码学习-03-Nimbus的任务分配过程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-03-Nimbus的任务分配过程.pdf)
 
-![JStorm源码学习-04-Storm集群启动过程-源码分析.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-04-Storm集群启动过程-源码分析.pdf)
+[JStorm源码学习-04-Storm集群启动过程-源码分析.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-04-Storm集群启动过程-源码分析.pdf)
 
-![JStorm源码学习-05-Supervisor获取任务.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-05-Supervisor获取任务.pdf)
+[JStorm源码学习-05-Supervisor获取任务.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-05-Supervisor获取任务.pdf)
 
-![JStorm源码学习-06-Supervisor启动Worker的过程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-06-Supervisor启动Worker的过程.pdf)
+[JStorm源码学习-06-Supervisor启动Worker的过程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-06-Supervisor启动Worker的过程.pdf)
 
-![JStorm源码学习-07-Executor的创建与启动过程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-07-Executor的创建与启动过程.pdf)
+[JStorm源码学习-07-Executor的创建与启动过程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-07-Executor的创建与启动过程.pdf)

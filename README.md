@@ -77,7 +77,7 @@ Acker跟踪算法的原理：acker对于每个spout-tuple保存一个ack-val的�
 
 4,设置acker数至少大于0；Config.setNumAckers(conf, ackerParal);
 ## JStorm源码分析文件
-![JStorm源码学习-01-Storm执行脚本.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-01-Storm执行脚本.pdf)
+[JStorm源码学习-01-Storm执行脚本.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-01-Storm执行脚本.pdf)
 
 ![JStorm源码学习-02-Storm任务提交流程.pdf](https://github.com/oeljeklaus-you/JStorm/blob/master/JStorm源码学习-02-Storm任务提交流程.pdf)
 

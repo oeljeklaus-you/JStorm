@@ -1,7 +1,7 @@
 # JStorm
 JStorm源码学习:主要包含Storm集群启动、Nimbus启动、Supervisor启动、Executor创建和启动
 ## Storm编程模型
-![Storm核心组件](image/Storm核心组件.png) 
+![Storm核心组件](Storm核心组件.png) 
 
 Nimbus：负责资源分配和任务调度。 
 
@@ -12,7 +12,7 @@ Worker：运行具体处理组件逻辑的进程。Worker运行的任务类型�
 Task：worker中每一个spout/bolt的线程称为一个task. 在storm0.8之后，task不再与物理线程对应，不同spout/bolt的task可能会共享一个物理线程，该线程称为executor。 
 
 ## Storm编程模型
-![image-20180530154018980](image/Storm编程模型.png)
+![image-20180530154018980](Storm编程模型.png)
 
 DataSource：外部数据源
 
@@ -29,7 +29,7 @@ StreamGrouping:数据分组策略
 ## Storm并发
 在Storm集群上运行的拓扑主要包含以下的三个实体：1、Worker进程 2、Executors 3、Tasks(任务)
 
-![image-20180530161818401](image/Storm并发.png)
+![image-20180530161818401](Storm并发.png)
 
 一个正在运行的拓扑由很多worker进程组成，这些worker进程在Storm集群的多台机器上运行。一个worker进程属于一个特定的拓扑并且执行这个拓扑的一个或多个component（spout或者bolt)的一个或多个executor。一个worker进程就是一个Java虚拟机(JVM)，它执行一个拓扑的一个子集。
 
@@ -50,7 +50,7 @@ Task：Task=线程=executor。 一个Task属于一个Spout或者Bolt并发任务
 
 Zookeeper：保存任务分配的信息、心跳信息、元数据信息。
 
-![image-20180606154307049](image/Storm架构.png)
+![image-20180606154307049](Storm架构.png)
 ## Worker与topology
 
 一个worker只属于一个topology,每个worker中运行的task只能属于这个topology。反之，一个topology包含多个worker，其实就是这个topology运行在多个worker上。
